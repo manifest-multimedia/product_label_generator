@@ -8,7 +8,9 @@ class ProductLabel extends Model
 {
     protected $fillable=[
         "name",
+        "unique_id",
         "barcode",
-        "type"
+        "type",
+        "quantity"
     ];
 }
